@@ -25,6 +25,10 @@ CentOs: ``` yum install python-pip -y ```
 
 Once that is created, you will need to provide a user with sufficient credentials to connect to the Ansible control machine via the integration over SSH.
 
+### Playbooks
+
+Ensure that you have copied your playbooks to a directory with appropriate access on the Ansible Control Machine (ACM). In the blueprint sample above we have created our integration using the root (not recommended) account, and our playbooks live in ``` /root/playbooks ```.
+
 #### A Note on Ansible Requirements
 
 Ensure you have Python installed on the endpoint machines; Python is required for Ansible to function.
