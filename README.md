@@ -20,8 +20,8 @@ From an authentication to ansible hosts, we support a number of  methods:
 
 **Only Ansible 2.6+ is supported currently.** Ensure you have upgraded your Ansible installation using ``` pip --upgrade ansible ```. If you do not have pip installed, you'll need to install it...
 
-Ubuntu: ``` apt install python-pip -y ```
-CentOs: ``` yum install python-pip -y ```
+* Ubuntu: ``` apt install python-pip -y ```
+* CentOS: ``` yum install python-pip -y ```
 
 Once that is created, you will need to provide a user with sufficient credentials to connect to the Ansible control machine via the integration over SSH.
 
