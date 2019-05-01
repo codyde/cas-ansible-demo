@@ -23,6 +23,13 @@ From an authentication to ansible hosts, we support a number of  methods:
 * Ubuntu: ``` apt install python-pip -y ```
 * CentOS: ``` yum install python-pip -y ```
 
+* Ubuntu: To install using apt, run the following 
+$ sudo apt-get update
+$ sudo apt-get install software-properties-common
+$ sudo apt-add-repository ppa:ansible/ansible
+$ sudo apt-get update
+$ sudo apt-get install ansible -y
+
 Once that is created, you will need to provide a user with sufficient credentials to connect to the Ansible control machine via the integration over SSH.
 
 ### Playbooks
